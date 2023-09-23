@@ -42,18 +42,18 @@ function Detail() {
         </ImgTitle>
         <Controls>
           <Playbtn>
-            <img src='/images/play-icon-black.png'/>
+            <img src='./images/play-icon-black.png'/>
             <span>Play</span>
           </Playbtn>
           <Trailerbtn>
-          <img src='/images/play-icon-white.png' alt='img'/>
+          <img src='./images/play-icon-white.png' alt='img'/>
             <span>Trailer</span>
           </Trailerbtn>
           <Addbtn>
           <span>+</span>
           </Addbtn>
           <Groupwbtn>
-          <img src='/images/group-icon.png'/>
+          <img src='./images/group-icon.png'/>
           </Groupwbtn>
         </Controls>
         <Title>

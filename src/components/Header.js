@@ -59,7 +59,7 @@ export default function Header() {
     
   return (
     <Nav>
-        <Logo src='/images/logo.svg'/>
+        <Logo src='./images/logo.svg'/>
         {!userN ?<Link to='/logIn' style={{textDecoration: 'none', color:'white'}}><Login onClick={signIn}>Log in</Login></Link> :
         <>
         
@@ -67,32 +67,32 @@ export default function Header() {
         
          <Navmenu>
             <a>
-                <img src='/images/home-icon.svg'/>
+                <img src='./images/home-icon.svg'/>
                 <span>Home</span>
             </a>
             <a>
-                <img src='/images/search-icon.svg'/>
+                <img src='./images/search-icon.svg'/>
                 <span>Search</span>
             </a>
             <a>
-                <img src='/images/watchlist-icon.svg'/>
+                <img src='./images/watchlist-icon.svg'/>
                 <span>Watchlist</span>
             </a>
             <a>
-                <img src='/images/original-icon.svg'/>
+                <img src='./images/original-icon.svg'/>
                 <span>Original</span>
             </a>
             <a>
-                <img src='/images/movie-icon.svg'/>
+                <img src='./images/movie-icon.svg'/>
                 <span>Movies</span>
             </a>
             <a>
-                <img src='/images/series-icon.svg'/>
+                <img src='./images/series-icon.svg'/>
                 <span>Series</span>
             </a>
 
         </Navmenu>
-        <Userimg src='/images/user.png' onClick={signOut} >
+        <Userimg src='./images/user.png' onClick={signOut} >
 
         </Userimg>
         

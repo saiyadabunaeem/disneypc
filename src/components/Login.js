@@ -7,12 +7,12 @@ function Login() {
   return (
     <Container>
         <CTA>
-            <CTAone src='/images/cta-logo-one.svg'></CTAone>
+            <CTAone src='./images/cta-logo-one.svg'></CTAone>
             <Signup>Get All There</Signup>
             <Description>
             Filmgoers will need to remind themselves that the characters were created by a computer -- not exactly a medium we associate with this kind of love, tenderness and care.
             </Description>
-            <CTAtwo src='/images/cta-logo-two.png'></CTAtwo>
+            <CTAtwo src='./images/cta-logo-two.png'></CTAtwo>
         </CTA>
     </Container>
   )
@@ -36,7 +36,7 @@ padding: 0 calc(3.5vw - 5px);
         right: 0;
         bottom: 0;
         content: '';
-        background-image: url('/images/login-background.jpg');
+        background-image: url('./images/login-background.jpg');
         z-index: -1;
 }
 
